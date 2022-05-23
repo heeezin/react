@@ -1,0 +1,20 @@
+.main__cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--black);
+
+  .main__inner {
+    font-size: 10vw;
+    line-height: 0.85;
+    font-family: var(--main_font);
+    color: var(--white);
+    text-transform: uppercase;
+  }
+}
+//메인 애니메이션
+.main__inner > div {
+  opacity: 0;
+  transform: translateY(50px);
+}
