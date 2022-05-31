@@ -5,11 +5,11 @@ function Footer() {
     <footer id="footer">
       <div>
         <h4>email</h4>
-        <a href="mailto:webstroyboy@naver.com">webstoryboy@naver.com</a>
+        <a href="mailto:webstroyboy@naver.com">gmlwls107@naver.com</a>
       </div>
       <div>
         <h4>Kakao</h4>
-        <a href="/">webstupis</a>
+        <a href="/">gmlwls839</a>
       </div>
       <div>
         <h4>social</h4>
