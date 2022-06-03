@@ -1,0 +1,198 @@
+{
+  "data": {
+    "type": "html",
+    "htmlRefer": [
+      {
+        "id": 1,
+        "title": "<a>",
+        "desc": "<a> 태그는 다른 페이지 이동을 설정합니다.",
+        "desc2": "<a> 태그는 다른 페이지 이동을 설정합니다. 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있으며, 아이디(#) 값으로 페이지 내에서도 이동이 가능합니다.",
+        "element": "인라인구조(Inline Element)",
+        "tag": "닫는 태그 사용(<a> ~ </a>)",
+        "version": "HTML4",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "★★★★★",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "link": "https://webzz.tistory.com/229",
+        "Definition": [
+          "<a> 태그는 클릭하면 다른 페이지로 이동합니다. 현재 페이지에서 다른 페이지 URL로 연결하는 것을 하이퍼링크라고 합니다.",
+          "<a> 태그는 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있습니다.",
+          "<a> 태그는 아이디(#id)로 이동 할 수 있습니다.",
+          "<a> 태그는 target 속성을 이용하면 새로운 브라우저 창에서 페이지 이동을 할 수 있습니다.",
+          "<a> 태그는 방문한 링크는 밑줄과 보라색으로 표시되고, 활성화된 링크는 밑줄과 빨간색으로 표시됩니다.",
+          "원칙적으로 <a> 태그는 블록구조를 포함 할 수 없지만, HTML5에서는 <a> 태그는 블록 요소를 포함할 수 있습니다.",
+          "href='#'의 페이지 지정을 막기 위해 javascript:void(0)를 사용하는 것보다 <button> 태그를 사용하는 것이 바람직합니다."
+        ],
+        "Accessibility": [
+          "링크를 통해 페이지 이동시 '페이지 이동' 및 '새로운 브라우저에서 열림' 등의 메시지를 명시하여야 합니다.",
+          "target='_blank' 속성을 사용할 경우 '새로운 브라우저에서 열림' 등의 메세지를 명시하여야 스크린리더기를 사용하는 사용자에게 도움을 줄 수 있습니다."
+        ],
+        "CrossBroswing": [],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
+        "w3c": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+      },
+      {
+        "id": 2,
+        "title": "<abbr>",
+        "desc": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+        "desc2": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. abbr은 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다. title 속성을 사용하여 전체 단어를 지정 할 수 있으며, <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+        "element": "인라인 구조(Inline Element)",
+        "tag": "적용(<abbr> ~ </abbr>)",
+        "version": "HTML4",
+        "view": "점선(브라우저마다 틀림) 및 툴팁",
+        "use": "★★☆☆☆",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/xHBTl/btq4MCAZmT3/jMSGkKKZNkgZwUOhApsK41/img.png",
+        "link": "https://webzz.tistory.com/230",
+        "Definition": [
+          "<abbr> 태그는 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다.",
+          "<abbr> 태그를 사용할 경우 번역 시스템이나 검색 시스템에게 유용한 정보를 제공합니다.",
+          "<abbr> 태그는 title 속성을 사용하여 전체 단어를 지정 할 수 있습니다.",
+          "<abbr> 태그는 <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+          "<abbr> 태그에 아이디를 설정하여, <a> 링크로 참조할 수 있습니다.",
+          "<abbr> 태그는 시각적으로는 점선이 표시되지만 브라우저마다 표시가 다를 수 있습니다.",
+          "<abbr> 태그는 title 속성을 설정할 경우 마우스 오버시 툴팁 형식으로 약어가 표시됩니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [
+          "HTML4에서는 약어를 표현할 때 <acronym>를 사용하였지만, HTML5에서는 약어를 표현할 때 <abbr>를 사용합니다."
+        ],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr",
+        "w3c": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element"
+      },
+      {
+        "id": 3,
+        "title": "<acronym>",
+        "desc": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+        "desc2": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. 현재는 사용하지 않고 <abbr> 태그를 사용합니다.",
+        "element": "인라인 구조(Inline Element)",
+        "tag": "적용(<acronym> ~ </acronym>)",
+        "version": "HTML4(HTML5에서 지원되지 않습니다.)",
+        "view": "점선(브라우저마다 틀림) 및 툴팁",
+        "use": "☆☆☆☆☆",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cznwCE/btrzghIl1nS/2fpvg3skRrbqA7NzSmScLK/img.jpg",
+        "link": "https://webzz.tistory.com/231",
+        "Definition": [
+          "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+          "<acronym>는 HTML4 태그이고, HTML5에서 지원되지 않는 오래된 태그입니다. 일부 브라우저에서 작동 될 수 있지만 사용을 권장하지 않습니다"
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [
+          "HTML4에서는 약어에 대해서는 <acronym>를 사용하고, HTML5에서는 약어를 <abbr>로 사용합니다."
+        ],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym",
+        "w3c": ""
+      },
+      {
+        "id": 4,
+        "title": "<address>",
+        "desc": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다.",
+        "desc2": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다. 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등의 정보와, 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "적용(<address> ~ </address>)",
+        "version": "HTML4",
+        "view": "기울임꼴",
+        "use": "★★★★☆",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cq7eZP/btq4MibIZG3/V1x2TmPMYTsryCUr0wGZs0/img.png",
+        "link": "https://webzz.tistory.com/232",
+        "Definition": [
+          "<address> 태그는 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등을 표시합니다.",
+          "<address> 태그는 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+          "<address> 태그는 <header>, <article>, <footer>, <aside>등 연락처 정보가 필요한 곳에 사용할 수 있습니다.",
+          "<address> 태그는 연락처와 관련 없는 내용이라면 <p> 태그를 사용합니다.",
+          "<address> 태그는 연락처 정보 보다 더 광범위한 정보를 포함 할 수 없습니다.(시간을 나타내는 time 태그등)",
+          "<address> 태그는 일반적으로 <footer> 영역에서 많이 사용합니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address",
+        "w3c": "https://html.spec.whatwg.org/multipage/sections.html#the-address-element"
+      },
+      {
+        "id": 5,
+        "title": "<applet>",
+        "desc": "<applet> 태그는 애플랫 요소를 설정합니다.",
+        "desc2": "<applet> 태그는 애플랫 요소를 설정합니다. 현재는 사용하지 않습니다.",
+        "element": "-",
+        "tag": "적용(<applet> ~ </applet>)",
+        "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+        "view": "-",
+        "use": "-",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bvTCwU/btq4MApDzxq/bqrUNsxkKjpXKcYYe8ZczK/img.png",
+        "link": "https://webzz.tistory.com/233",
+        "Definition": [
+          "<applet> 태그는 자바 애플랫 요소를 설정합니다.",
+          "<applet> 태그는 자바 애플랫 요소를 사용하기 위한 개발자 소스였으나, 현재는 사용하지 않으며, <object> 태그를 사용합니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [
+          "HTML5에서 지원하지 않습니다. 대신 <embed> 태그와 <object> 태그를 이용합니다."
+        ],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/ko/docs/Web/HTML/Element/applet",
+        "w3c": ""
+      },
+      {
+        "id": 6,
+        "title": "<area>",
+        "desc": "<area> 태그는 이미지 맵의 영역을 정의합니다.",
+        "desc2": "<area> 태그는 이미지 맵의 영역을 정의합니다. 이미지 위에 가상의 영역을 만들어서 클릭을 유도할 수 있습니다. 하지만 접근성에 있어 좋지 않기 때문에 현재는 많이 사용하지 않습니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "적용(<area> ~ </area>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★☆☆☆☆",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/2eEFQ/btq4MCAZOnO/V6yZKvpihZzVzhJxqRB5t1/img.png",
+        "link": "https://webzz.tistory.com/234",
+        "Definition": [
+          "<area> 태그는 이미지 위에 영역 링크를 정의 할 때 간편하게 사용할 수 있습니다.",
+          "<area> 태그는 <map>, <img> 태그와 같이 사용합니다.",
+          "<area> 태그 shape 속성을 통해 영역을 모양(rect, circle, poly)을 설정합니다.",
+          "<area> 태그 cords 속성을 통해 영역을 위치를 설정합니다. cords의 위치 값은 프로그램을 통해 좌표 값을 얻는 방법이 쉽습니다.",
+          "<map> 태그의 name 속성과 이미지의 usemap 속성이 일치해야 적용됩니다.",
+          "이미지 위에 영역을 설정하고 링크를 설정하는 방법은 많이 사용하지 않습니다. 직접 링크를 걸고 사용하는 것을 추천합니다.",
+          "이미지 맵은 위치가 고정적이기 때문에 반응형 사이트에서 적용 할 수 없습니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/ko/docs/Web/HTML/Element/area",
+        "w3c": ""
+      },
+      {
+        "id": 7,
+        "title": "<aside>",
+        "desc": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+        "desc2": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다. 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "적용(<aside> ~ </aside>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "★★★★★",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/0muvh/btq4Jfz49xZ/vMGldKG5lfdO0LDO862LP0/img.png",
+        "link": "https://webzz.tistory.com/236",
+        "Definition": [
+          "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+          "<aside> 태그는 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [],
+        "Related": [
+          "<body> 태그는 사이트 본문에 해당하는 모든 콘텐츠를 포함하는 섹션을 설정합니다.",
+          "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다.",
+          "<section> 태그는 주제별 그룹의 콘텐츠 섹션을 설정합니다.",
+          "<nav> 태그는 내부 페이지 및 외부 페이지에 대한 탐색 링크를 제공하는 페이지 섹션을 설정합니다.",
+          "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+          "<h1>~<h6> 태그는 각 섹션의 제목을 설정합니다.",
+          "<header> 태그는 사이트의 소개 및 메뉴 그룹을 나타내는 섹션을 설정합니다.",
+          "<footer> 태그는 사이트 관련 정보 및 관련 링크 콘텐츠 섹션을 설정합니다."
+        ],
+        "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside",
+        "w3c": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element"
+      }
+    ]
+  }
+}
