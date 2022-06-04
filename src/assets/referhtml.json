@@ -192,6 +192,72 @@
         ],
         "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside",
         "w3c": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element"
+      },
+      {
+        "id": 8,
+        "title": "<iframe>",
+        "desc": "<iframe> 태그는 웹문서에 다른문서를 포함하는데 사용합니다.",
+        "desc2": "<iframe> 태그는 웹 문서에 다른 문서를 포함하는데 사용합니다.",
+        "tag": "적용(<iframe> ~ </iframe>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★☆☆☆☆",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/2eEFQ/btq4MCAZOnO/V6yZKvpihZzVzhJxqRB5t1/img.png",
+        "link": "https://webzz.tistory.com/234",
+        "Definition": [
+          "<iframe> 태그(HTML Inline Frame element)는 웹 문서에 다른 웹 문서를 포함하는데 사용합니다.",
+          "웹 문서에서 <iframe> 태그는 여러 개를 사용 할 수 있습니다.",
+          "<iframe> 태그를 여러 개 사용 할 경우, 페이지 리소스가 증가하여 느려질 수 있으므로 웹 페이지 성능을 고려하여 적절하게 사용하여야 합니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/ko/docs/Web/HTML/Element/area",
+        "w3c": ""
+      },
+      {
+        "id": 9,
+        "title": "<dialog>",
+        "desc": "<dialog> 태그는 팝업정보를 설정합니다.",
+        "desc2": "<dialog> 태그는 웹 문서에 다른 문서를 포함하는데 사용합니다.",
+        "tag": "적용(<dialog> ~ </dialog>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "★☆☆☆☆",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/2eEFQ/btq4MCAZOnO/V6yZKvpihZzVzhJxqRB5t1/img.png",
+        "link": "https://webzz.tistory.com/234",
+        "Definition": [
+          "<dialog> 태그는 팝업 정보을 설정합니다.",
+          "<dialog> 태그는 position: absolute;를 통해 위치가 설정됩니다.",
+          "<dialog> 스크립트를 사용하지 않고 웹 페이지 위에 팝업을 쉽게 만들 수있습니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/ko/docs/Web/HTML/Element/area",
+        "w3c": ""
+      },
+      {
+        "id": 10,
+        "title": "<base>",
+        "desc": "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
+        "desc2": "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
+        "tag": "적용(<base> ~ </base>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★☆☆☆☆",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/2eEFQ/btq4MCAZOnO/V6yZKvpihZzVzhJxqRB5t1/img.png",
+        "link": "https://webzz.tistory.com/234",
+        "Definition": [
+          "<base> 태그는 <head> 태그 안에서만 설정 할 수 있습니다.",
+          "여러개의 <base> 태그가 설정된 경우, 첫 번째 설정만 유지되고 나머지는 무시됩니다.",
+          "<base> 태그는 문서에서 한 번만 설정 할 수 있습니다."
+        ],
+        "Accessibility": [],
+        "CrossBroswing": [],
+        "Related": [],
+        "mdn": "https://developer.mozilla.org/ko/docs/Web/HTML/Element/area",
+        "w3c": ""
       }
     ]
   }
