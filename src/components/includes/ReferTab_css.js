@@ -13,7 +13,7 @@ class ReferTab_css extends React.Component {
         data: { cssRefer },
       },
     } = await axios.get(
-      "https://raw.githubusercontent.com/leeheezin/json/refercss.json"
+      "https://raw.githubusercontent.com/leeheezin/json/main/refercss.json"
     );
 
     console.log(cssRefer);
